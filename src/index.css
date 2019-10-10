@@ -11,3 +11,56 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.Starship-div {
+  width: 200px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  margin: 10px;
+  background-color: #2f4f4f;
+  color: white;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.Starship-container {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 5vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.StarshipPage-div {
+  width: 400px;
+  display: flex;
+  align-items: left;
+  padding: 20px;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: #2f4f4f;
+  color: white;
+  border-radius: 5px;
+  text-align: left;
+  overflow: auto;
+  margin: 15px;
+}
+
+.StarshipPage-container {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10vh;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  margin-top: 15px;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+}
